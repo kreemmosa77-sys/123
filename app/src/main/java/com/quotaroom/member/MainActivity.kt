@@ -68,7 +68,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MaterialTheme(
                 colorScheme = darkColorScheme(
-                    primary = Accent, onPrimary = Bg, background = Bg, surface = Card,
+                    primary = Accent, onPrimary = Bg, background = Bg, surface = CardBg,
                     onBackground = Color(0xFFE6E9F2), onSurface = Color(0xFFE6E9F2),
                 ),
             ) { App() }
